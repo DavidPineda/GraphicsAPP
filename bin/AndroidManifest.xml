@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.uniminuto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/TituloAplicacion"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="co.edu.uniminuto.vista.MenuPrincipal"
+            android:label="@string/TituloAplicacion" 
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="co.edu.uniminuto.vista.PlanoActivity" 
+            android:label="PlanoActivity"
+            android:screenOrientation="landscape">
+        </activity>
+
+    </application>
+
+</manifest>

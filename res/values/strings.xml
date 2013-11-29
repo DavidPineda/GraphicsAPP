@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="TituloAplicacion">Graficadora</string>
+	<string name="anguloIni">Angulo Inicial</string>
+	<string name="anguloFin">Angulo Final</string>
+	<string name="tipoGrafica">Seleccione la grafica</string>
+	<string name="cbCos">Cos</string>
+	<string name="cbSin">Sin</string>
+	<string name="cbTan">Tan</string>
+	<string name="cbCsc">Csc</string>
+	<string name="cbSec">Sec</string>
+	<string name="cbAtan">aTan</string>
+	<string name="btn_graficar">Graficar</string>
+		
+</resources>
